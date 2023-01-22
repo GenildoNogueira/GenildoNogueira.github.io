@@ -29,7 +29,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>sistema_de_treino_r3d_admin</title>
+  <title>ST-R3D Admin</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -37,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3608868992';
+    var serviceWorkerVersion = '2162701460';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -99,25 +99,6 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
-  </script>
-
-  <script>
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js";
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/cloud-firestore.js";
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-firestore.js";
-
-    var firebaseConfig = {
-      apiKey: "AIzaSyB1eJ2-AUHtWv_hmO8Qzq1j2tR7458Ij1Q",
-      authDomain: "sistema-de-treino-r3d.firebaseapp.com",
-      projectId: "sistema-de-treino-r3d",
-      storageBucket: "sistema-de-treino-r3d.appspot.com",
-      messagingSenderId: "995231950177",
-      appId: "1:995231950177:web:700d516d277f740eb25120",
-      measurementId: "G-B70JSGZ3NL"
-    };
-
-    const app = initializeApp(firebaseConfig);
   </script>
 </body>
 </html>
