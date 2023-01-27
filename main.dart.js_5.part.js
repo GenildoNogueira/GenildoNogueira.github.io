@@ -13,7 +13,7 @@ _.c=m
 _.e=_.d=""
 _.f="abdominal e cintura"
 _.r=n
-_.x=_.w=null},KJ:function KJ(){},aJd:function aJd(d){this.a=d},aJe:function aJe(d){this.a=d},aIc:function aIc(){},afL:function afL(d,e){this.a=d
+_.x=_.w=null},KK:function KK(){},aJd:function aJd(d){this.a=d},aJe:function aJe(d){this.a=d},aIc:function aIc(){},afL:function afL(d,e){this.a=d
 this.b=e},afK:function afK(d,e){this.a=d
 this.b=e},afO:function afO(d,e){this.a=d
 this.b=e},afN:function afN(d,e){this.a=d
@@ -65,7 +65,7 @@ return x}finally{this.goA().aq(w)}},
 rV(d){var x,w=this.goA().aB("_AddExercisesControllerBase.onChangedTipo")
 try{x=this.aeA(d)
 return x}finally{this.goA().aq(w)}}}
-A.KJ.prototype={
+A.KK.prototype={
 q8(d){this.sIJ(d)
 return d},
 rT(d){this.sfQ(0,d)
@@ -173,7 +173,7 @@ F(d){var x,w=this,v=null,u=B.o(d).ax,t=u.fr
 if(t==null)t=u.cx
 u=w.c
 x=y.D
-return B.fd(F.JA,B.ub(v,B.Jm(B.cP(B.a([B.eW(!0,!1,v,D.uA,v,v,v,v,!1,u.gSb(),v,v,C.f2,new A.afZ()),C.av,B.eW(!0,!1,v,C.lZ,v,v,v,v,!1,u.gSa(),v,v,C.c4,v),C.av,B.by(new A.ag_(w)),C.av,B.by(new A.ag0(w,t)),C.dX,B.cA(B.a([B.bX(B.qn(C.cR,new A.ag1(d)),1),C.c2,B.bX(B.by(new A.ag2(w)),1)],x),C.u,C.bd,C.w)],x),C.u,C.y,C.w),v,C.a2,C.ft,v,C.ah),v),v,v,v,v)}}
+return B.fd(F.JA,B.ub(v,B.Jn(B.cP(B.a([B.eW(!0,!1,v,D.uA,v,v,v,v,!1,u.gSb(),v,v,C.f2,new A.afZ()),C.av,B.eW(!0,!1,v,C.lZ,v,v,v,v,!1,u.gSa(),v,v,C.c4,v),C.av,B.by(new A.ag_(w)),C.av,B.by(new A.ag0(w,t)),C.dj,B.cA(B.a([B.bX(B.qn(C.cR,new A.ag1(d)),1),C.c2,B.bX(B.by(new A.ag2(w)),1)],x),C.u,C.bd,C.w)],x),C.u,C.y,C.w),v,C.a2,C.ft,v,C.ah),v),v,v,v,v)}}
 var z=a.updateTypes(["@(l?)","ab<@>()","@()","pd(aq<@>)","lV(aq<@>)","wU()"])
 A.aJd.prototype={
 $1(d){var x=0,w=B.E(y.a),v=this
@@ -216,7 +216,7 @@ $1(d){return B.b_K()},
 $S:145}
 A.afY.prototype={
 $0(){var x=$.aE
-if(x==null)x=$.aE=B.bS().a8(y.I).b
+if(x==null)x=$.aE=B.bR().a8(y.I).b
 return new A.wU(x.fD(0,y.T),null)},
 $S:z+5}
 A.afZ.prototype={
@@ -239,7 +239,7 @@ else{u=w.gCs()
 u.a.q(u)
 u=w.x
 u.toString
-u=E.b5K(u,C.rs)}return B.kS(!1,C.bS,!0,B.bM(x,B.xq(C.bS,u,C.bb),C.j,x,x,new B.cK(x,x,v,C.bS,x,x,C.ad),x,140,x,x,x,x,x,140),x,!0,x,x,x,x,x,x,x,x,x,x,w.gIx(),x,x,x,x,x,x,x)},
+u=E.b5K(u,C.rs)}return B.kS(!1,C.bS,!0,B.bS(x,B.xq(C.bS,u,C.bb),C.j,x,x,new B.cK(x,x,v,C.bS,x,x,C.ad),x,140,x,x,x,x,x,140),x,!0,x,x,x,x,x,x,x,x,x,x,w.gIx(),x,x,x,x,x,x,x)},
 $S:170}
 A.ag1.prototype={
 $0(){B.ek(this.a,!1).i4(null)
@@ -247,7 +247,7 @@ return null},
 $S:0}
 A.ag2.prototype={
 $1(d){return B.b_8(C.ql,this.a.c.gaG8(),null)},
-$S:782};(function aliases(){var x=A.KJ.prototype
+$S:782};(function aliases(){var x=A.KK.prototype
 x.aeB=x.q8
 x.aez=x.rT
 x.aey=x.rS
@@ -258,17 +258,17 @@ x(v=A.pd.prototype,"gIx","i6",1)
 w(v,"gSb","rT",0)
 w(v,"gSa","rS",0)
 w(v,"gSi","rV",0)
-x(A.KJ.prototype,"gaG8","Hi",2)})();(function inheritance(){var x=a.mixinHard,w=a.mixin,v=a.inheritMany,u=a.inherit
+x(A.KK.prototype,"gaG8","Hi",2)})();(function inheritance(){var x=a.mixinHard,w=a.mixin,v=a.inheritMany,u=a.inherit
 v(B.p,[A.abY,A.aIc])
-u(A.KJ,A.abY)
-u(A.pd,A.KJ)
+u(A.KK,A.abY)
+u(A.pd,A.KK)
 v(B.d4,[A.aJd,A.aJe,A.afV,A.afW,A.afX,A.afZ,A.ag_,A.ag0,A.ag2])
 v(B.pv,[A.afL,A.afK,A.afO,A.afN,A.afM,A.afJ,A.afY,A.ag1])
 u(A.rU,B.dP)
 u(A.wU,B.a3)
 x(A.pd,A.aIc)
 w(A.abY,B.eG)})()
-B.Or(b.typeUniverse,JSON.parse('{"rU":{"dP":[],"a3":[],"d":[],"cJ":[],"cB":[]},"wU":{"a3":[],"d":[]}}'))
+B.Os(b.typeUniverse,JSON.parse('{"rU":{"dP":[],"a3":[],"d":[],"cJ":[],"cB":[]},"wU":{"a3":[],"d":[]}}'))
 var y=(function rtii(){var x=B.a1
-return{T:x("pd"),N:x("Fz"),I:x("FY"),d:x("lV"),P:x("y<j3<p>>"),s:x("y<l>"),D:x("y<d>"),p:x("atY"),a:x("aQ"),K:x("p"),z:x("@")}})();(function constants(){F.JA=new B.wN("Add Exerc\xedcio",null,null)})()}
-$__dart_deferred_initializers__["3kSR8facDeFT+No6HBgam8eHzV8="] = $__dart_deferred_initializers__.current
+return{T:x("pd"),N:x("FA"),I:x("FZ"),d:x("lV"),P:x("y<j3<p>>"),s:x("y<l>"),D:x("y<d>"),p:x("atY"),a:x("aQ"),K:x("p"),z:x("@")}})();(function constants(){F.JA=new B.wN("Add Exerc\xedcio",null,null)})()}
+$__dart_deferred_initializers__["3gXWee1KKQDQyv8KaPGSadwfAX8="] = $__dart_deferred_initializers__.current
